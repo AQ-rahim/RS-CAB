@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "usesIcloudStorage": true,
@@ -24,15 +22,12 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.ridershare",
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "location"
-      ],
+      "permissions": ["ACCESS_FINE_LOCATION", "location"],
       "useNextNotificationsApi": true,
       "config": {
         "android:useCleartextTraffic": true,
         "googleMaps": {
-          "apiKey": "AIzaSyCwIGYMhIBwDnpfjF8o3q8mvU-8bM8alVI"
+          "apiKey": "YOUR API KEY"
         }
       }
     },
